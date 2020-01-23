@@ -2,17 +2,17 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Its been quite a struggle to figure out how exactly to midi map changing patches in serum running through ableton live using a midi controller online.  Since every link that i could find on the topic, simply led to another thread with no conclusive answer -- I am providing information on how I was able to accomplish this feat.
+Its been quite a struggle to figure out how exactly to midi map changing patches in serum running through ableton live using a midi controller on the web.  Since every link that i could find on the topic, simply led to another thread with no conclusive answer -- I am providing information on how I was able to accomplish this feat.
 
 #### Please Note..
 
-* This is one of many possible ways to handle Patch / Program Changes using Serum as VST within Ableton Live.  This happens to be the most convenient way for me.  Hope this helps you!
+* This is one of many possible ways to handle Patch / Program Changes using Serum as VST within Ableton Live.  This happens to be the most convenient way for me based upon my production workflow.  I hope that this helps you!
 
 ## Table of Contents
 * [Getting Started](#gettingstarted)
     * [Prerequisites](#prerequisites)
-* [Setup & Configuration](#setup)
-* [Usage](#usage)
+    * [Setup & Configuration](#setup)
+    * [Usage](#usage)
 * [License](#license)
 * [Acknowledgements](#acknowledgements)
 * [Resources](#resources)
@@ -21,11 +21,17 @@ Its been quite a struggle to figure out how exactly to midi map changing patches
 
 ### Prerequisites<a name="prerequisites"></a>
 
-- [x] **GET** [Ableton Live](https://www.ableton.com)
-- [x] **GET** [Serum](https://xferrecords.com/products/serum)
-- [x] **GET** A Midi Controller (ie: a Midi Keyboard)
-- [x] **GET** A Text Editor of your choice (ie: TextEdit, TextWrangler, BBEdit, Brackets, Notepad++, etc)
+- [x] **SOFTWARE / HARDWARE**
+  - [x] **GET** [Ableton Live](https://www.ableton.com)
+  - [x] **GET** [Serum](https://xferrecords.com/products/serum)
+  - [x] **GET** A Midi Controller (ie: a Midi Keyboard)
+  - [x] **GET** A Text Editor of your choice (ie: TextEdit, TextWrangler, BBEdit, Brackets, Notepad++, etc)
 
+- [x] **SKILLS REQUIRED**
+  - [x] Navigating your file system
+  - [x] Duplicating files
+  - [x] Renaming files
+  - [x] Editing files
 
 - [x] **KNOW WHAT YOU'RE GETTING INTO FIRST**
   - [x] View the ```serum.cfg``` file before edits:  [serum.cfg.bak](https://github.com/marscanbueno/ableton-live-resources/blob/master/midi-mapping-serum-patch-changes/Serum.cfg.bak)
@@ -35,7 +41,10 @@ Its been quite a struggle to figure out how exactly to midi map changing patches
 ### Setup and Configuration<a name="setup"></a>
 
 1. Provided you have Ableton Live and Serum pre-installed, navigate to the folder / directory that your ```serum.cfg``` preferences file is stored in.
-2. Before editing ```serum.cfg``` make a duplicate / backup file.  Iʻve made a duplicate and renamed it ```serum.cfg.bak```.
+  * ```serum.cfg``` is located in the following folder / directory depending on what operating system you are using:
+    * **[MacOS]**:  ```~/Library/Preferences/Serum.cfg```
+    * **[WindowsOS]**:  ```%APPDATA%/Xfer/Serum```
+2. Before editing ```serum.cfg``` make a duplicate / backup file.  Iʻve made a duplicate and renamed it ```serum.cfg.bak```.  Feel free to name your backup whatever you want that will identify it as a backup.
 3. Open ```serum.cfg``` in your text editor of choice.
 4. We will now edit a few lines within ```serum.cfg``` to allow us to change presets using buttons on our hardware device.  We will need to know if we will be using buttons that transmit Midi CCs or Notes, and what their values are.  In the following example, I will use Midi CCs.
   1. Line 33:  replace ```X``` with ```1```.  
