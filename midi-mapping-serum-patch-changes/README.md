@@ -26,6 +26,12 @@ Its been quite a struggle to figure out how exactly to midi map changing patches
 - [x] **GET** A Midi Controller (ie: a Midi Keyboard)
 - [x] **GET** A Text Editor of your choice (ie: TextEdit, TextWrangler, BBEdit, Brackets, Notepad++, etc)
 
+
+- [x] **KNOW WHAT YOURE GETTING INTO FIRST**
+  - [x] View the ```serum.cfg``` file before edits:  [serum.cfg.bak](../serum.cfg.bak)
+  - [x] View the ```serum.cfg``` file after edits:  [serum.cfg](../serum.cfg)
+
+
 ### Setup and Configuration<a name="setup"></a>
 
 1. Provided you have Ableton Live and Serum pre-installed, navigate to the folder / directory that your ```serum.cfg``` preferences file is stored in.
