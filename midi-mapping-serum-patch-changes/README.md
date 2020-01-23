@@ -50,7 +50,7 @@ Its been quite a struggle to figure out how exactly to midi map changing patches
     * **[WindowsOS]**:  ```%APPDATA%/Xfer/Serum```
 2. Before editing ```serum.cfg``` make a duplicate / backup file.  Iʻve made a duplicate and renamed it ```serum.cfg.bak```.  Feel free to name your backup whatever you want that will identify it to you as a backup.
 
-3. Open ```serum.cfg``` in your text editor of choice.  My flavor of the month is Brackets!
+3. Open ```serum.cfg``` in your text editor of choice.  My flavor of the month is [Brackets](http://brackets.io)!
 
 4. We will now edit a few lines within ```serum.cfg``` to allow us to change presets using buttons on our hardware device.  We will need to know if we will be using buttons that transmit Midi CCs or Notes, and what their values are.  In the following example, I will use Midi CCs.
   1. Line 33:  replace ```X``` with ```1```.  
@@ -67,11 +67,11 @@ Its been quite a struggle to figure out how exactly to midi map changing patches
   
       * where it said:
       
-    ```[X][X] (increment / decrement CC for Preset Changes)```
+      ```[X][X] (increment / decrement CC for Preset Changes)```
 
       * it should now read:
 
-    ```[35][34] (increment / decrement CC for Preset Changes)```
+      ```[35][34] (increment / decrement CC for Preset Changes)```
   
 5. Save your changes!
 6.  Open Ableton Live and insert a new instance of Serum onto a new Midi Channel.  Enjoy your mapped patch / preset selector!
