@@ -6,43 +6,40 @@ My collection of Resources / Tips / Tutorials / References / Tools / etc for Abl
 
 #### Please Note..
 
-* I maintain this repo as *my* backup for my things that i find useful.
+* I maintain this repo as *my* backup for things that i find useful.
 * You're quite welcome to make suggestions, however I may decline if it's not of personal value to me.
 
 ## Table of Contents
 * [Getting Started](#gettingstarted)
-    * [Prerequisites](#prerequisites)
-* [Installation](#installation)
-    * MacOS
-        * Using ```BREW```
-        * Using ```CURL```
-        * Using ```WGET```
-    * Windows - *coming soon*
-* [Setup](#setup)
-* [Usage](#usage)
+* [Racks](#racks)
+* [VSTs](#vsts)
+* [Midi Remote Scripts](#midi-remote-scripts)
+* [Templates](#templates)
 * [License](#license)
 * [Acknowledgements](#acknowledgements)
 * [Resources](#resources)
 
 ## Getting Started<a name="gettingstarted"></a>
 
-coming soon!
+Instructions to help you get started using any of the tips / tutorials / resources / tools should be provided to you within the provided link!
 
 ### Prerequisites<a name="prerequisites"></a>
 
 - [x] **GET** [Ableton Live](https://www.ableton.com)
 
-### Basic Installation<a name="installation"></a>
+### Racks<a name="racks"></a>
 
-coming soon!
+..coming soon!
 
-### Setup<a name="setup"></a>
+### VSTs<a name="vsts"></a>
+* [Midi Mapping Serum Patch Changes](https://github.com/marscanbueno/ableton-live-resources/tree/master/midi-mapping-serum-patch-changes) - Tutorial on how to midi map buttons on midi controller to control previous / next patch / preset using [Serum](https://xferrecords.com/products/serum) as VST in [Ableton Live](https://www.ableton.com).
+* Midi Mapping Massive Patch Changes - *..coming soon!*
 
-coming soon!
+### Midi Remote Scripts<a name="midi-remote-scripts"></a>
+* APC40 Color Blind Remote Script - *..coming soon!*
 
-### Usage<a name="usage"></a>
-
-coming soon!
+### Templates<a name="templates"></a>
+..coming soon!
 
 ## Contributing<a name="contributing"></a>
 
