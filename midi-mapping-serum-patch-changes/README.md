@@ -82,7 +82,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgements<a name="acknowledgements"></a>
 
-..coming soon!
+Rez, Adlib Beats, and Beat Le Juice all inspired me to post up this information!  If you found this information useful, look them up on Soundcloud and give them a follow in appreciation!
 
 ## Resources<a name="resources"></a>
 
