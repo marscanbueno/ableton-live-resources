@@ -43,6 +43,9 @@ Instructions to help you get started using any of the tips / tutorials / resourc
 ### Midi Remote Scripts<a name="midi-remote-scripts"></a>
 * APC40 Color Blind Remote Script - *..coming soon!*
 
+### Project Files
+* [Moldovers 100 Favorite Break Beats](https://www.joshuacasper.com/blog-post/100-break-beats/) - In 2014, [Moldover](https://moldover.com) gave fans and followers a free Ableton Live project file with his 100 Favorite break beats stemmed out, warped up, and even color coded, ready to be triggered.
+
 ### Templates<a name="templates"></a>
 ..coming soon!
 
