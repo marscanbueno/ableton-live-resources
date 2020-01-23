@@ -28,8 +28,8 @@ Its been quite a struggle to figure out how exactly to midi map changing patches
 
 
 - [x] **KNOW WHAT YOURE GETTING INTO FIRST**
-  - [x] View the ```serum.cfg``` file before edits:  [serum.cfg.bak](../serum.cfg.bak)
-  - [x] View the ```serum.cfg``` file after edits:  [serum.cfg](../serum.cfg)
+  - [x] View the ```serum.cfg``` file before edits:  [serum.cfg.bak](https://github.com/marscanbueno/ableton-live-resources/blob/master/midi-mapping-serum-patch-changes/Serum.cfg.bak)
+  - [x] View the ```serum.cfg``` file after edits:  [serum.cfg](https://github.com/marscanbueno/ableton-live-resources/blob/master/midi-mapping-serum-patch-changes/Serum.cfg)
 
 
 ### Setup and Configuration<a name="setup"></a>
