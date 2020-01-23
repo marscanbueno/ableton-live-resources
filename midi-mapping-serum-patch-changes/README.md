@@ -1,3 +1,5 @@
+![alt text](https://github.com/marscanbueno/ableton-live-resources/blob/master/midi-mapping-serum-patch-changes/midi-mapping-serum-patch-changes.png "Midi Mapping Serum Patch Changes")
+
 # Midi Mapping Serum Patch Changes<a name="HOME"></a>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -26,6 +28,8 @@ Its been quite a struggle to figure out how exactly to midi map changing patches
   - [x] **GET** [Serum](https://xferrecords.com/products/serum)
   - [x] **GET** A Midi Controller (ie: a Midi Keyboard)
   - [x] **GET** A Text Editor of your choice (ie: TextEdit, TextWrangler, BBEdit, Brackets, Notepad++, etc)
+  - [x] **GET** The CC or Note values that you desire to use for midi mapping your controller
+
 
 - [x] **SKILLS REQUIRED**
   - [x] Navigating your file system
@@ -44,8 +48,10 @@ Its been quite a struggle to figure out how exactly to midi map changing patches
   * ```serum.cfg``` is located in the following folder / directory depending on what operating system you are using:
     * **[MacOS]**:  ```~/Library/Preferences/Serum.cfg```
     * **[WindowsOS]**:  ```%APPDATA%/Xfer/Serum```
-2. Before editing ```serum.cfg``` make a duplicate / backup file.  Iʻve made a duplicate and renamed it ```serum.cfg.bak```.  Feel free to name your backup whatever you want that will identify it as a backup.
-3. Open ```serum.cfg``` in your text editor of choice.
+2. Before editing ```serum.cfg``` make a duplicate / backup file.  Iʻve made a duplicate and renamed it ```serum.cfg.bak```.  Feel free to name your backup whatever you want that will identify it to you as a backup.
+
+3. Open ```serum.cfg``` in your text editor of choice.  My flavor of the month is Brackets!
+
 4. We will now edit a few lines within ```serum.cfg``` to allow us to change presets using buttons on our hardware device.  We will need to know if we will be using buttons that transmit Midi CCs or Notes, and what their values are.  In the following example, I will use Midi CCs.
   1. Line 33:  replace ```X``` with ```1```.  
   
