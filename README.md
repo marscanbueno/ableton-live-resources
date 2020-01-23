@@ -31,7 +31,12 @@ Instructions to help you get started using any of the tips / tutorials / resourc
 
 ..coming soon!
 
+### Resources<a name="resources"></a>
+
+* [Abletons options.txt file](https://help.ableton.com/hc/en-us/articles/209772865-Options-txt-file) - The "Options.txt" file allows the possibility to enable certain experimental features in Live. These options are mainly used for developing and internal testing but may be useful for you as well.
+
 ### VSTs<a name="vsts"></a>
+
 * [Midi Mapping Serum Patch Changes](https://github.com/marscanbueno/ableton-live-resources/tree/master/midi-mapping-serum-patch-changes) - Tutorial on how to midi map buttons on midi controller to control previous / next patch / preset using [Serum](https://xferrecords.com/products/serum) as VST in [Ableton Live](https://www.ableton.com).
 * Midi Mapping Massive Patch Changes - *..coming soon!*
 
