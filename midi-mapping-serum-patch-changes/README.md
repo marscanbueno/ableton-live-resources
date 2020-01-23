@@ -4,11 +4,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Its been quite a struggle to figure out how exactly to midi map changing patches in serum running through ableton live using a midi controller on the web.  Since every link that i could find on the topic, simply led to another thread with no conclusive answer -- I am providing information on how I was able to accomplish this feat.
+Its been quite a struggle to figure out how exactly to midi map changing patches in [Serum](https://xferrecords.com/products/serum) running through [Ableton Live](https://www.ableton.com) using a midi controller on the web.  Since every link that i could find on the topic, simply led to another thread with no conclusive answer -- I am providing information on how I was able to accomplish this feat.
 
 #### Please Note..
 
-* This is one of many possible ways to handle Patch / Program Changes using Serum as VST within Ableton Live.  This happens to be the most convenient way for me based upon my production workflow.  I hope that this helps you!
+* This is one of many possible ways to handle Patch / Program Changes using [Serum](https://xferrecords.com/products/serum) as VST within [Ableton Live](https://www.ableton.com).  This happens to be the most convenient way for me based upon my production workflow.  I hope that this helps you!
 
 ## Table of Contents
 * [Getting Started](#gettingstarted)
@@ -44,7 +44,7 @@ Its been quite a struggle to figure out how exactly to midi map changing patches
 
 ### Setup and Configuration<a name="setup"></a>
 
-1. Provided you have Ableton Live and Serum pre-installed, navigate to the folder / directory that your ```serum.cfg``` preferences file is stored in.
+1. Provided you have [Ableton Live](https://www.ableton.com) and [Serum](https://xferrecords.com/products/serum) pre-installed, navigate to the folder / directory that your ```serum.cfg``` preferences file is stored in.
   * ```serum.cfg``` is located in the following folder / directory depending on what operating system you are using:
     * **[MacOS]**:  ```~/Library/Preferences/Serum.cfg```
     * **[WindowsOS]**:  ```%APPDATA%/Xfer/Serum```
@@ -74,15 +74,7 @@ Its been quite a struggle to figure out how exactly to midi map changing patches
       ```[35][34] (increment / decrement CC for Preset Changes)```
   
 5. Save your changes!
-6.  Open Ableton Live and insert a new instance of Serum onto a new Midi Channel.  Enjoy your mapped patch / preset selector!
-
-### Usage<a name="usage"></a>
-
-coming soon!
-
-## Contributing<a name="contributing"></a>
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+6.  Open [Ableton Live](https://www.ableton.com) and insert a new instance of [Serum](https://xferrecords.com/products/serum) onto a new Midi Channel.  Enjoy your mapped patch / preset selector!
 
 ## License<a name="license"></a>
 
