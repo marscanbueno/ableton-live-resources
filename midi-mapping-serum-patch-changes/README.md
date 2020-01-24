@@ -76,6 +76,34 @@ Its been quite a struggle to figure out how exactly to midi map changing patches
 5. Save your changes!
 6.  Open [Ableton Live](https://www.ableton.com) and insert a new instance of [Serum](https://xferrecords.com/products/serum) onto a new Midi Channel.  Enjoy your mapped patch / preset selector!
 
+## Using ProgramChanges.txt
+
+..taken from the Serum Forums..
+
+*MIDI Program Changes (current implementation) info:*
+
+*A file named ProgramChanges.txt can be created in "Serum Presets/System/". *
+*This text file contains preset names, one per line, to instruct Serum what programs to load. they also contain subfolder location inside Serum Presets/Presets/ *
+*Here is an example file:*
+
+*Plucked/PL Mallety [SD].fxp *
+*Seq/SQ Majestic [SD].fxp *
+
+*Then Serum will create this program change map on startup, and change to the appropriate program. Bank and Sub-Bank are ignored. Up to 128 programs are supported. *
+*In the above example, a Program Change of 1 would load PL Mallety, and a Program Change of 2 would load SQ Majestic. *
+*If you want you can make "comment lines" by beginning them with a semi-colon, and they will be ignored. *
+
+```
+; this is my program change file
+; Program Change 1: 
+Plucked/PL Mallety [SD].fxp 
+; Program Change 2: 
+Seq/SQ Majestic [SD].fxp 
+; end of my program change file
+```
+
+*Keep in mind that presets take a moment to load (about 1 second, or less, depending on amount of WT data) and Serum will not play during that loading period, so you should plan accordingly.*
+
 ## License<a name="license"></a>
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
@@ -86,4 +114,5 @@ Rez, [Adlib Beats](https://soundcloud.com/ad-lib-beats), and [Beat Le Juice](htt
 
 ## Resources<a name="resources"></a>
 
-..coming soon!
+* [Serum Manual]() - Provided for reference purposes.
+* [Serum Forum - (Beta) Serum 1.05b5](https://xferrecords.com/forums/serum/beta-serum-1-05b5) - Information on the current implementation of program changes in Serum using ```ProgramChanges.txt```.
