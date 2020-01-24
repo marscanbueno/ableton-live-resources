@@ -119,6 +119,39 @@ _Keep in mind that presets take a moment to load (about 1 second, or less, depen
 
 _Kind of.._
 
+At least theres a quick and simple way to pull the bulk of the presets that are contained within a folder into a ```ProgramChanges.txt```.  Further editing can be done to streamline them down or to expand upon the presets that are contatined within the list to suit your taste.
+
+#### **MacOS Users**
+1. Open ```Terminal.app```
+2. Decide which Preset folder you would like to use to build your ```ProgramChanges.txt``` file with.  As an example, I'll use _WBBL Bass Preset Pack 1_, though you could use any folder you'd like.
+3. Paste the following command to navigate in Terminal to the _WBBL Bass Preset Pack 1_ folder.
+
+  ```cd /Library/Audio/Presets/Xfer\ Records/Serum\ Presets/Presets/WBBL\ Bass\ Pack\ 1\ Presets/```
+
+  _Alternatively you could use any other preset folder that you prefer.  Heres another example.._
+  
+  ```cd /Library/Audio/Presets/Xfer\ Records/Serum\ Presets/Presets/Featurecast_Serum\ Presets/```
+  
+4. Paste the following command to create ```ProgramChanges.txt```.
+
+  ```ls -1 > /Library/Audio/Presets/Xfer\ Records/Serum\ Presets/System/ProgramChanges.txt```
+
+5. Verify that the folder contents were copied into ```Program Changes.txt``` by pasting the following command to read the file..
+
+  ```cat /Library/Audio/Presets/Xfer\ Records/Serum\ Presets/System/ProgramChanges.txt``` 
+  
+  _You should see output similar to this:_
+  
+  ![alt text](https://github.com/marscanbueno/ableton-live-resources/blob/master/midi-mapping-serum-patch-changes/wbblpresetlist.png "WBBL Preset List")
+
+6. Perform any edits necessary to your ```ProgramChanges.txt``` file that are necessary.
+
+7. Now you can enjoy jamming out on your Static List of presets!
+
+#### **WindowsOS Users**
+
+_I dont have a license for Ableton Live or Serum on Windows, though the proccess is quite similar.  Sorry!_
+
 ## License<a name="license"></a>
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
