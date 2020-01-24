@@ -144,7 +144,7 @@ At least theres a quick and simple way to pull the bulk of the presets that are 
   
   ![alt text](https://github.com/marscanbueno/ableton-live-resources/blob/master/midi-mapping-serum-patch-changes/wbblpresetlist.png "WBBL Preset List")
   
-  _Or, if you followed the example using the Featurecast Serum Presets as an example, you might see something similar to this:
+  _Or, if you followed the example using the Featurecast Serum Presets as an example, you might see something similar to this:_
   
   ![alt text](https://github.com/marscanbueno/ableton-live-resources/blob/master/midi-mapping-serum-patch-changes/featurecastpresetlist.png "Featurecast Preset List")
 
