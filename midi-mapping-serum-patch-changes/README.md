@@ -108,7 +108,9 @@ _Keep in mind that presets take a moment to load (about 1 second, or less, depen
 
 ### ..which got me thinking, "there must be an easier way to do this!"
 
-**Luckily there is!  __Kind of..__**
+**Luckily there is!**
+
+_Kind of.._
 
 ## License<a name="license"></a>
 
