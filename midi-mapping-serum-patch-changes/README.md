@@ -80,8 +80,8 @@ Its been quite a struggle to figure out how exactly to midi map changing patches
 
 There are two types of Program Changes that Serum supports.
 
-* Static / Dedicated / Fixed Lists - Which basically means that you don't need to worry about changing the program change #'s if you add/remove presets to Serum, which you can assign (in a text file).  Static Lists default to Bank 1.
-* Dynamic Lists - Which are program changes based on the folder/menu item location (using bank messages).  Dynamic Lists  default to Bank _X_ depending on the number of preset folders you have.
+* **Static / Dedicated / Fixed Lists** - Which basically means that you don't need to worry about changing the program change #'s if you add/remove presets to Serum, which you can assign (in a text file).  Static Lists default to Bank 1.
+* **Dynamic Lists** - Which are program changes based on the folder/menu item location (using bank messages).  Dynamic Lists  default to Bank _X_ depending on the number of preset folders you have.
 
 _While I prefer to scroll through my presets dynamically, as I frequently create or import new patches, you may find it useful to utilize a static list in a live performance scenario._
 
