@@ -78,7 +78,7 @@ Its been quite a struggle to figure out how exactly to midi map changing patches
 
 ## Using ProgramChanges.txt
 
-..taken from the Serum Forums..
+### ..taken from the Serum Forums..
 
 _MIDI Program Changes (current implementation) info:_
 
@@ -106,9 +106,9 @@ Seq/SQ Majestic [SD].fxp
 
 _Keep in mind that presets take a moment to load (about 1 second, or less, depending on amount of WT data) and Serum will not play during that loading period, so you should plan accordingly._
 
-..which got me thinking, "there must be an easier way to do this!"
+### ..which got me thinking, "there must be an easier way to do this!"
 
-**Luckily there is!  Kind of..**
+**Luckily there is!  __Kind of..__**
 
 ## License<a name="license"></a>
 
