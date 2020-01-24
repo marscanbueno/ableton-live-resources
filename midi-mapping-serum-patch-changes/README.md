@@ -86,8 +86,10 @@ Its been quite a struggle to figure out how exactly to midi map changing patches
 *This text file contains preset names, one per line, to instruct Serum what programs to load. they also contain subfolder location inside Serum Presets/Presets/ *
 *Here is an example file:*
 
+```
 *Plucked/PL Mallety [SD].fxp *
 *Seq/SQ Majestic [SD].fxp *
+```
 
 *Then Serum will create this program change map on startup, and change to the appropriate program. Bank and Sub-Bank are ignored. Up to 128 programs are supported. *
 *In the above example, a Program Change of 1 would load PL Mallety, and a Program Change of 2 would load SQ Majestic. *
@@ -104,6 +106,10 @@ Seq/SQ Majestic [SD].fxp
 
 *Keep in mind that presets take a moment to load (about 1 second, or less, depending on amount of WT data) and Serum will not play during that loading period, so you should plan accordingly.*
 
+..which got me thinking, "there must be an easier way to do this!"
+
+**Luckily there is!  Kind of..**
+
 ## License<a name="license"></a>
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
@@ -114,5 +120,5 @@ Rez, [Adlib Beats](https://soundcloud.com/ad-lib-beats), and [Beat Le Juice](htt
 
 ## Resources<a name="resources"></a>
 
-* [Serum Manual]() - Provided for reference purposes.
+* [Serum Manual](https://github.com/marscanbueno/ableton-live-resources/blob/master/midi-mapping-serum-patch-changes/Serum_Manual.pdf) - Provided for reference purposes.
 * [Serum Forum - (Beta) Serum 1.05b5](https://xferrecords.com/forums/serum/beta-serum-1-05b5) - Information on the current implementation of program changes in Serum using ```ProgramChanges.txt```.
