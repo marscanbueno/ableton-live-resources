@@ -80,20 +80,20 @@ Its been quite a struggle to figure out how exactly to midi map changing patches
 
 ..taken from the Serum Forums..
 
-*MIDI Program Changes (current implementation) info:*
+_MIDI Program Changes (current implementation) info:_
 
-*A file named ProgramChanges.txt can be created in "Serum Presets/System/". *
-*This text file contains preset names, one per line, to instruct Serum what programs to load. they also contain subfolder location inside Serum Presets/Presets/ *
-*Here is an example file:*
+_A file named ProgramChanges.txt can be created in "Serum Presets/System/"._
+_This text file contains preset names, one per line, to instruct Serum what programs to load. they also contain subfolder location inside Serum Presets/Presets/_
+_Here is an example file:_
 
 ```
-*Plucked/PL Mallety [SD].fxp *
-*Seq/SQ Majestic [SD].fxp *
+Plucked/PL Mallety [SD].fxp
+Seq/SQ Majestic [SD].fxp
 ```
 
-*Then Serum will create this program change map on startup, and change to the appropriate program. Bank and Sub-Bank are ignored. Up to 128 programs are supported. *
-*In the above example, a Program Change of 1 would load PL Mallety, and a Program Change of 2 would load SQ Majestic. *
-*If you want you can make "comment lines" by beginning them with a semi-colon, and they will be ignored. *
+_Then Serum will create this program change map on startup, and change to the appropriate program. Bank and Sub-Bank are ignored. Up to 128 programs are supported._
+_In the above example, a Program Change of 1 would load PL Mallety, and a Program Change of 2 would load SQ Majestic._
+_If you want you can make "comment lines" by beginning them with a semi-colon, and they will be ignored._
 
 ```
 ; this is my program change file
@@ -104,7 +104,7 @@ Seq/SQ Majestic [SD].fxp
 ; end of my program change file
 ```
 
-*Keep in mind that presets take a moment to load (about 1 second, or less, depending on amount of WT data) and Serum will not play during that loading period, so you should plan accordingly.*
+_Keep in mind that presets take a moment to load (about 1 second, or less, depending on amount of WT data) and Serum will not play during that loading period, so you should plan accordingly._
 
 ..which got me thinking, "there must be an easier way to do this!"
 
