@@ -74,9 +74,16 @@ Its been quite a struggle to figure out how exactly to midi map changing patches
       ```[35][34] (increment / decrement CC for Preset Changes)```
   
 5. Save your changes!
-6.  Open [Ableton Live](https://www.ableton.com) and insert a new instance of [Serum](https://xferrecords.com/products/serum) onto a new Midi Channel.  Enjoy your mapped patch / preset selector!
+6. Open [Ableton Live](https://www.ableton.com) and insert a new instance of [Serum](https://xferrecords.com/products/serum) onto a new Midi Channel.  Enjoy your mapped patch / preset selector!
 
-## Using ProgramChanges.txt
+## Using or Not Using ProgramChanges.txt
+
+There are two types of Program Changes that Serum supports.
+
+* Static / Dedicated / Fixed Lists - Which basically means that you don't need to worry about changing the program change #'s if you add/remove presets to Serum, which you can assign (in a text file).  Static Lists default to Bank 1.
+* Dynamic Lists - Which are program changes based on the folder/menu item location (using bank messages).  Dynamic Lists  default to Bank _X_ depending on the number of preset folders you have.
+
+_While I prefer to scroll through my presets dynamically, as I frequently create or import new patches, you may find it useful to utilize a static list in a live performance scenario._
 
 ### ..taken from the Serum Forums..
 
@@ -124,3 +131,4 @@ Rez, [Adlib Beats](https://soundcloud.com/ad-lib-beats), and [Beat Le Juice](htt
 
 * [Serum Manual](https://github.com/marscanbueno/ableton-live-resources/blob/master/midi-mapping-serum-patch-changes/Serum_Manual.pdf) - Provided for reference purposes.
 * [Serum Forum - (Beta) Serum 1.05b5](https://xferrecords.com/forums/serum/beta-serum-1-05b5) - Information on the current implementation of program changes in Serum using ```ProgramChanges.txt```.
+* [Serum Forum - Serum Program Change](https://xferrecords.com/forums/general/serum-program-change) - Information on the types of Program Changes Serum supports.
