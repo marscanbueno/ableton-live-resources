@@ -152,6 +152,12 @@ At least theres a quick and simple way to pull the bulk of the presets that are 
 
 7. Now you can enjoy jamming out on your Static List of presets!
 
+#### Decided you want to switch back to using a Dynamic List?
+
+1. Delete ProgramChanges.txt using this command.
+
+  ```rm -rf /Library/Audio/Presets/Xfer\ Records/Serum\ Presets/System/ProgramChanges.txt```
+
 #### **WindowsOS Users**
 
 _I dont have a license for Ableton Live or Serum on Windows, though the proccess is quite similar.  Sorry!_
