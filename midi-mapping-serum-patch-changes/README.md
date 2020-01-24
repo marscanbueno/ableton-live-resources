@@ -132,3 +132,4 @@ Rez, [Adlib Beats](https://soundcloud.com/ad-lib-beats), and [Beat Le Juice](htt
 * [Serum Manual](https://github.com/marscanbueno/ableton-live-resources/blob/master/midi-mapping-serum-patch-changes/Serum_Manual.pdf) - Provided for reference purposes.
 * [Serum Forum - (Beta) Serum 1.05b5](https://xferrecords.com/forums/serum/beta-serum-1-05b5) - Information on the current implementation of program changes in Serum using ```ProgramChanges.txt```.
 * [Serum Forum - Serum Program Change](https://xferrecords.com/forums/general/serum-program-change) - Information on the types of Program Changes Serum supports.
+* [Ableton Forum - Changing Serum Preset on Push](https://forum.ableton.com/viewtopic.php?f=55&t=221074&view=next) - Information about how to get this done using Push.
