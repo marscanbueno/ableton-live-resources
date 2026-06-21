@@ -1,66 +1,300 @@
-# Ableton Live Resources<a name="HOME"></a>
+# Ableton Live Resources
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-My collection of Resources / Tips / Tutorials / References / Tools / etc for Ableton Live.  This repository basically serves as a backup in case I need to do a fresh install for whatever reason.
+![Ableton Live](https://img.shields.io/badge/Ableton-Live-orange?logo=abletonlive)
+![Type](https://img.shields.io/badge/Type-Knowledge%20Base-purple)
+![Production](https://img.shields.io/badge/Music-Production-blue)
+![MIDI](https://img.shields.io/badge/MIDI-Mappings-success)
+![Max for Live](https://img.shields.io/badge/Max%20for%20Live-Resources-informational)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-#### Please Note..
+A curated collection of Ableton Live resources, tutorials, workflow guides, project files, sample packs, templates, MIDI mappings, remote scripts, production references, and utility tools.
 
-* I maintain this repo as *my* backup for things that i find useful.
-* You're quite welcome to make suggestions, however I may decline if it's not of personal value to me.
+This repository serves as a personal knowledge base and backup archive containing information, resources, and workflows that I regularly use while producing music, creating DJ edits, building mashups, performing live, and developing Ableton Live projects.
+
+The goal of this repository is to centralize useful Ableton Live knowledge into a single location so it can be quickly referenced, restored, or shared whenever needed.
+
+## Goals
+
+* Preserve useful Ableton Live resources in a single location
+* Document production and performance workflows
+* Maintain installation notes and configuration references
+* Archive project files, templates, and creative tools
+* Collect MIDI mapping and controller integration guides
+* Document advanced Ableton Live features and customization options
+* Provide a reference library for future systems and fresh installations
+
+## Please Note
+
+I maintain this repository primarily for my own use and reference.
+
+Resources included here may consist of:
+
+* Documentation
+* Tutorials
+* Reference material
+* Configuration files
+* Project files
+* Sample libraries
+* External links
+* Installation notes
+
+Suggestions and corrections are welcome. However, I may decline contributions that do not align with how I use Ableton Live or maintain this repository.
+
+## Repository Structure
+
+```text
+ableton-live-resources/
+├── docs/
+├── production/
+├── dj-edits/
+├── mashups/
+├── performance/
+├── controller-integration/
+├── midi-mappings/
+├── midi-remote-scripts/
+├── max-for-live/
+├── mixing-and-mastering/
+├── sound-design/
+├── project-files/
+├── sample-packs/
+├── templates/
+├── tools/
+└── resources/
+```
 
 ## Table of Contents
-* [Getting Started](#gettingstarted)
-* [Racks](#racks)
-* [VSTs](#vsts)
-* [Midi Remote Scripts](#midi-remote-scripts)
-* [Templates](#templates)
-* [License](#license)
-* [Acknowledgements](#acknowledgements)
-* [Resources](#resources)
 
-## Getting Started<a name="gettingstarted"></a>
+* Getting Started
+* Prerequisites
+* Production
+* DJ Edits
+* Mashups
+* Performance
+* Controller Integration
+* MIDI Mappings
+* MIDI Remote Scripts
+* Max for Live
+* Sound Design
+* Mixing and Mastering
+* Project Files
+* Sample Packs
+* Templates
+* Tools
+* Resources
+* Contributing
+* License
+* Acknowledgements
 
-Instructions to help you get started using any of the tips / tutorials / resources / tools should be provided to you within the provided link!
+## Getting Started
 
-### Prerequisites<a name="prerequisites"></a>
+Most resources included in this repository contain their own documentation, tutorials, installation instructions, or reference material.
 
-- [x] **GET** [Ableton Live](https://www.ableton.com)
+Navigate to the appropriate folder for detailed information related to the resource you are interested in.
 
-### Racks<a name="racks"></a>
+## Prerequisites
 
-..coming soon!
+* Ableton Live
+* Basic familiarity with Ableton Live workflows
+* Any required third-party VSTs, hardware, or software referenced within individual guides
 
-### Resources<a name="resources"></a>
+## Production
 
-* [Options.txt](https://help.ableton.com/hc/en-us/articles/209772865-Options-txt-file) - The "Options.txt" file allows the possibility to enable certain experimental features in Live. These options are mainly used for developing and internal testing but may be useful for you as well.
+Resources focused on music production workflows within Ableton Live.
 
-### VSTs<a name="vsts"></a>
+Examples include:
 
-* [Midi Mapping Serum Patch Changes](https://github.com/marscanbueno/ableton-live-resources/tree/master/midi-mapping-serum-patch-changes) - Tutorial on how to midi map buttons on midi controller to control previous / next patch / preset using [Serum](https://xferrecords.com/products/serum) as VST in [Ableton Live](https://www.ableton.com).
-* Midi Mapping Massive Patch Changes - *..coming soon!*
+* Project organization
+* Arrangement techniques
+* Drum programming
+* Workflow optimization
+* Creative production methods
+* Production templates
 
-### Midi Remote Scripts<a name="midi-remote-scripts"></a>
-* APC40 Color Blind Remote Script - *..coming soon!*
+## DJ Edits
 
-### Project Files
-* [Moldovers 100 Favorite Break Beats](https://www.joshuacasper.com/blog-post/100-break-beats/) - In 2014, [Moldover](https://moldover.com) gave fans and followers a free Ableton Live project file with his 100 Favorite break beats stemmed out, warped up, and even color coded, ready to be triggered.
+Resources related to creating DJ-friendly edits in Ableton Live.
 
-### Sample Packs
-* [Slynks Classic Funky Breaks](https://slynk.net/product/classic-funky-breaks/) - Slynks Funky Breaks library is a collection of his favorite funk breaks of all time, remastered and remixed. Contains 85 Drum Loops & 10 Drum Fills.
+Examples include:
 
-### Templates<a name="templates"></a>
-..coming soon!
+* Intro edits
+* Outro edits
+* Extended versions
+* Clean edits
+* Acapella edits
+* Transition tools
 
-## Contributing<a name="contributing"></a>
+## Mashups
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Resources focused on combining multiple songs, acapellas, and instrumentals into mashups and live edit projects.
 
+Examples include:
 
-## License<a name="license"></a>
+* Tempo matching
+* Key matching
+* Acapella preparation
+* Mashup workflow techniques
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+## Performance
 
-## Acknowledgements<a name="acknowledgements"></a>
-## Resources<a name="resources"></a>
+Resources related to using Ableton Live in live performance environments.
 
+Examples include:
+
+* Session View workflows
+* Live set organization
+* Performance templates
+* Routing and audio configuration
+* Hardware integration
+
+## Controller Integration
+
+Documentation and resources related to MIDI controllers and hardware devices.
+
+Examples include:
+
+* APC40
+* Launchpad
+* Push
+* MIDI Fighter
+* Custom controller mappings
+
+## MIDI Mappings
+
+A collection of MIDI mapping references and controller integration techniques for Ableton Live and supported plugins.
+
+Examples include:
+
+* Transport controls
+* Plugin controls
+* Device navigation
+* Preset navigation
+
+## MIDI Remote Scripts
+
+Custom and third-party MIDI Remote Scripts used to extend hardware integration within Ableton Live.
+
+### APC40 Color Blind Remote Script
+
+Coming soon.
+
+## Max for Live
+
+Resources related to Max for Live devices, utilities, and workflow enhancements.
+
+Examples include:
+
+* Utility devices
+* MIDI generators
+* Performance tools
+* Workflow enhancements
+* Custom devices
+
+## Sound Design
+
+Resources related to synthesizers, sampling, and sound creation.
+
+Examples include:
+
+* Serum
+* Massive
+* Wavetable
+* Operator
+* Sampler
+* Preset management
+
+### MIDI Mapping Serum Patch Changes
+
+Tutorial demonstrating how to use MIDI controls to navigate previous and next presets within Serum while working inside Ableton Live.
+
+### MIDI Mapping Massive Patch Changes
+
+Coming soon.
+
+## Mixing and Mastering
+
+Resources related to mixing, loudness management, mastering workflows, and audio quality.
+
+Examples include:
+
+* Gain staging
+* EQ techniques
+* Compression workflows
+* Limiting
+* Loudness standards
+* Metering
+
+## Project Files
+
+Shared project files, example projects, and educational resources.
+
+### Moldover's 100 Favorite Breakbeats
+
+A classic Ableton Live project released by Moldover containing 100 of his favorite breakbeats.
+
+Features include:
+
+* Stem-separated breakbeats
+* Warped clips
+* Color-coded organization
+* Ready-to-use clips for production and performance
+
+## Sample Packs
+
+Collections of samples, drum breaks, loops, and other production assets.
+
+### Slynk's Classic Funky Breaks
+
+A collection of remastered and remixed funk breakbeats curated by Slynk.
+
+Includes:
+
+* 85 drum loops
+* 10 drum fills
+
+## Templates
+
+A collection of Ableton Live templates designed to speed up project creation and maintain consistent workflows.
+
+Examples include:
+
+* Production templates
+* DJ edit templates
+* Mashup templates
+* Performance templates
+* Mixdown templates
+
+## Tools
+
+Utilities, scripts, and supporting resources that enhance Ableton Live workflows.
+
+Examples include:
+
+* MIDI utilities
+* Conversion tools
+* Controller support files
+* Workflow enhancements
+* Third-party integrations
+
+## Resources
+
+General references, documentation, guides, and configuration files.
+
+### Options.txt
+
+The `Options.txt` file provides access to various advanced and experimental Ableton Live features.
+
+These options are primarily intended for development, troubleshooting, and internal testing purposes, though some may be useful for advanced users seeking additional functionality.
+
+## Contributing
+
+Please read `CONTRIBUTING.md` for information on submitting suggestions, corrections, or pull requests.
+
+## License
+
+This project is licensed under the MIT License. See `LICENSE` for details.
+
+## Acknowledgements
+
+Thanks to the Ableton Live community, artists, producers, educators, developers, and content creators whose resources and knowledge have contributed to this collection.
